@@ -14,6 +14,7 @@ export default function decorate(block) {
   s.onload = function () {
     // After the script is loaded, initialize Swiper
     var swiper = new Swiper(".swiper", {
+      speed: 1500,
       autoplay: {
         delay: 4000,
         disableOnInteraction: false,
