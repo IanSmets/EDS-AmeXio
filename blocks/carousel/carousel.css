@@ -1,0 +1,49 @@
+
+.swiper {
+    padding-left: 79.5px;
+    padding-right: 79.5px;
+    margin-bottom: 35px;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 1090px;
+    max-height: 250px;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+    padding-right: 100px;
+}
+
+
+.carousel-container {
+    background-color: #CEDAE4;
+}
+
+.swiper-pagination{
+    padding-top: 30px;
+    position: relative!important;
+    opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #869791!important;
+}
+
+.swiper-pagination-bullet-inactive {
+    background-color: #CAD4D7!important;
+}
+
+.swiper-pagination-bullet {
+    width: 10px!important;
+    height: 10px!important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
