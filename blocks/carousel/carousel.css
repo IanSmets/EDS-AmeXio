@@ -2,16 +2,16 @@
 .swiper {
     padding-left: 79.5px;
     padding-right: 79.5px;
-    margin-bottom: 35px;
+    width: 1000px;
 }
 
 .swiper-slide {
     font-size: 18px;
     display: flex !important;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 1090px;
     max-height: 250px;
+
 }
 
 .swiper-slide img {
@@ -24,10 +24,12 @@
 
 .carousel-container {
     background-color: #CEDAE4;
+    padding-bottom: 30px;
+    max-height: 455px;
 }
 
 .swiper-pagination{
-    padding-top: 30px;
+    padding-top: 40px;
     position: relative!important;
     opacity: 0.8;
 }
@@ -46,4 +48,38 @@
     text-align: center;
     line-height: 20px;
     font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bolder;
+    color: #084772;
+    font-size: 2.25rem;
+    margin-bottom: 1.125rem;
+}
+
+.default-content-wrapper{
+    max-width: 600px!important;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0 0px 0 !important;
+    font-family: 'Lexend', sans-serif;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: #084772;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+em{
+    font-weight: lighter!important;
 }
