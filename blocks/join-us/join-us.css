@@ -1,0 +1,56 @@
+.join-us{
+    margin-left: auto;
+    margin-right: auto;
+    width: 840px;
+    height: 525px;
+    align-items: center;
+    text-align: center;
+}
+
+.join-us-title{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-us-title > h2 {
+    text-align: center;
+}
+
+.join-us-title > p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Lexend', sans-serif;
+    ine-height: 1.4em !important;
+}
+
+.join-us-message > p > picture > img {
+    height: 100px;
+    width: 100px;
+    transition: all ease 0.2s;
+}
+
+.join-us-message > p > picture > img:hover {
+    scale: 90%;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.join-us-message > p > strong {
+    color: #084772;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.join-us-message > p {
+    font-weight: 500;
+    font-size: 1rem;
+    width: 260px;
+}
+
+.join-us-message-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

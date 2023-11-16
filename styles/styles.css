@@ -42,6 +42,10 @@
 
 }
 
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
+  font-family: 'Lexend', sans-serif!important;
+}
+
 @font-face {
   font-family: roboto-fallback;
   size-adjust: 100.06%;
@@ -169,7 +173,7 @@ a.button:any-link, button {
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  opacity: 0.8;
+  filter: saturate(85%);
   cursor: pointer;
 }
 
