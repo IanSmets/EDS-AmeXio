@@ -1,0 +1,50 @@
+.item-grid > div {
+  display: flex;
+  justify-content: center;
+}
+
+.item-grid img {
+  width: 100%;
+}
+
+.item-grid-img-col{
+  max-width: 60px;
+  padding-top: 0.5em;
+}
+
+  .item-grid > div {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 75px;
+  }
+
+  .item-grid > div > div {
+    width: 295px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .item-grid > div > div > h3 {
+    color: #084772;
+    font-size: 1.5rem;
+    margin-bottom: 1rem!important;
+    width: 295px;
+  }
+
+  .item-grid > div > div > p {
+    font-size: 1rem;
+    font-family: 'Lexend', sans-serif;
+    line-height: 1.4em !important;
+    font-weight: 400;
+    margin: 0;
+  }
+
+.item-grid > div > div > .button-container{
+  margin-top: auto;
+}
+
+  .item-grid > div > div > .button-container > .button > u{
+    text-decoration: none;
+  }

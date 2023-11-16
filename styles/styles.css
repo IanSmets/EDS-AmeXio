@@ -81,16 +81,23 @@ header {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: .5em;
-  scroll-margin: calc(var(--nav-height) + 1em);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  color: #084772;
+}
+
+h2 {
+  font-weight: 550!important;
 }
 
 h1 { font-size: var(--heading-font-size-xxl) }
-h2 { font-size: var(--heading-font-size-xl) }
+h2 { font-size: 1.7em; }
 h3 { font-size: var(--heading-font-size-l) }
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
@@ -141,27 +148,28 @@ a:hover {
 
 /* buttons */
 a.button:any-link, button {
+  transition: all 0.2s ease-in-out;
   font-family: var(--body-font-family);
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: #ed6c25;
+  color: #ffffff;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  font-size: 14px;
+  padding: 14px 20px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -229,18 +237,17 @@ main img {
 }
 
 main .section {
-  padding: 64px 16px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding-bottom: 30px;
   }
 }
 
 @media (min-width: 900px) {
   .section > div {
-    max-width: 1200px;
     margin: auto;
   }
 }

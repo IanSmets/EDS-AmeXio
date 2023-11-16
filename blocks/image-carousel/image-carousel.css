@@ -8,10 +8,15 @@
 .carousel-logo {
     display: block;
     max-height: 70px!important;
-    padding: 0px!important;
 }
 
 .swiper-slide {
+    display: flex;
     align-content: center;
     vertical-align: center!important;
+    width: fit-content;
+}
+
+.image-swiper-slide > div {
+    padding-left: 0px!important;
 }

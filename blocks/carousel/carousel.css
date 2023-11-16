@@ -8,30 +8,34 @@
 .swiper-slide {
     font-size: 18px;
     display: flex !important;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     max-height: 250px;
-
+    width: auto;
 }
 
 .swiper-slide img {
     display: block;
     max-width: 250px;
     max-height: 250px;
-    padding-right: 100px;
+}
+
+.swiper-slide > div {
+    max-width: 500px;
+    padding-left: 150px;
 }
 
 
 .carousel-container {
     background-color: #CEDAE4;
-    padding-bottom: 30px;
-    max-height: 455px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .swiper-pagination{
-    padding-top: 40px;
     position: relative!important;
     opacity: 0.8;
+    padding-top: 50px;
 }
 
 .swiper-pagination-bullet-active {
@@ -50,22 +54,23 @@
     font-size: 12px;
 }
 
-h2 {
+.carousel-container > div > h2 {
     text-align: center;
-    margin-top: 0px;
     font-family: 'Lexend', sans-serif;
     font-weight: bolder;
     color: #084772;
     font-size: 2.25rem;
     margin-bottom: 1.125rem;
+    padding-top: 2rem;
 }
 
 .default-content-wrapper{
-    max-width: 600px!important;
+    max-width: 570px!important;
     text-align: center;
+    padding-bottom: 15px;
 }
 
-p{
+.carousel-container > div > p{
     font-size: 1rem;
     font-weight: bold;
     margin: 5px 0 0px 0 !important;
