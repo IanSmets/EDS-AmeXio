@@ -63,10 +63,14 @@
     padding-top: 2rem;
 }
 
-.default-content-wrapper{
+.carousel-container > .default-content-wrapper{
     max-width: 570px!important;
     text-align: center;
     padding-bottom: 15px;
+}
+
+#how-we-help-businesses-with-their-digital-growth{
+    text-align: center;
 }
 
 .carousel-container > div > p{
